@@ -1,10 +1,51 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        }
+        var dog = 8.0;
+        var cat = 3.6;
+        var paper = 763789;
+        System.out.println("dog = " + dog);
+        System.out.println("cat = " + cat);
+        System.out.println("paper = " + paper);
+        dog = dog + 4;
+        System.out.println("dog = " + dog);
+        cat = cat + 4;
+        System.out.println("cat = " + cat);
+        paper = paper + 4;
+        System.out.println("paper = " + paper);
+        dog = dog - 3.5;
+        System.out.println("dog = " + dog);
+        cat = cat - 1.6;
+        System.out.println("cat = " + cat);
+        paper = paper - 7639;
+        System.out.println("paper = " + paper);
+        var friend = 19;
+        System.out.println("friend = " + friend);
+        friend = friend + 2;
+        System.out.println("friend = " + friend);
+        friend = friend / 7;
+        System.out.println("friend = " + friend);
+        var frog = 3.5;
+        System.out.println("frog = " + frog);
+        frog = frog * 10;
+        System.out.println("frog = " + frog);
+        frog = frog / 3.5;
+        System.out.println("frog = " + frog);
+        frog = frog + 4;
+        System.out.println("frog = " + frog);
+        var boxer1 = 78.2;
+        var boxer2 = 82.7;
+        var totalWeight = boxer1 + boxer2;
+        System.out.println("Общая масса = " + totalWeight);
+        var weightDifference = boxer2 - boxer1;
+        System.out.println("Разница в массе = " + weightDifference);
+        var remainder = boxer2 % boxer1;
+        System.out.println("Остаток = " + remainder);
+        var totalHours = 640;
+        var hoursPerEmployee = 8;
+        var totalEmployees = totalHours / hoursPerEmployee;
+        System.out.println("Всего работников в компании — " + totalEmployees + " человек");
+        var newEmployees = totalEmployees + 94;
+        var newTotalHours = newEmployees * hoursPerEmployee;
+        System.out.println("Если в компании работает " + newEmployees + " человек, то всего " + newTotalHours + " часов работы может быть поделено между сотрудниками");
     }
+}
